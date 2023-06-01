@@ -1,0 +1,26 @@
+.wrapper{
+    position: relative;
+}
+
+.title{
+    font-size: 15px;
+    text-align: start;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+p{
+    margin: 0px 10px;
+}
+

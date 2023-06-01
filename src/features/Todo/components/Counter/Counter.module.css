@@ -1,0 +1,30 @@
+.wrapper{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+}
+
+.quantity:last-child{
+    margin-right: 0px;
+}
+
+.active{
+    color: #f67c75;
+}
+
+.completed{
+    color: #67c23a;
+}
+
+@media only screen and (max-width: 450px) {
+    .wrapper{
+        justify-content: center;
+    }
+}

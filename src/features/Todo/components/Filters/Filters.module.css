@@ -1,0 +1,29 @@
+.wrapper{
+    border: solid 1px #DCDFE6;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: fit-content;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 7px;
+    border-right: solid 1px #DCDFE6;
+}
+
+.btn:last-child{
+    border-right: solid 1px transparent;
+}
+
+.active{
+    color: #fff;
+    background-color: #409EFF;
+    border-color: #409EFF;
+    transition: 0.2s;
+}

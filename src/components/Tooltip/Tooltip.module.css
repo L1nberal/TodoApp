@@ -1,0 +1,41 @@
+.wrapper{
+    position: relative;
+    margin-right: 5px;
+}
+
+.wrapper:last-child{
+    margin-right: 0px;
+}
+
+.wrapper:hover>.tooltip__container{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip__container{
+    visibility: hidden;
+    min-width: 100px;
+    max-width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.1s;
+    z-index: 999;
+    white-space: initial;
+}
+
+.tooltip__container:hover{
+    display: none;
+}
+
+.left{
+    transform: translateX(-110%);
+}
+
+.bottom{
+    top: 120%;
+}

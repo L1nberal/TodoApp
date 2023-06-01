@@ -1,0 +1,98 @@
+.wrapper{
+    position: absolute;
+    transform: translateX(-105%);
+    bottom: 0px;
+    border: solid 1px rgb(189, 189, 189);
+    padding: 5px;
+    background-color: #fff;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.table{
+    border-spacing: 0px;
+}
+
+.head{
+    background-color: rgb(239, 157, 157);
+}
+
+th, td {
+    text-align: center;
+}
+
+.body__row-title{
+    font-family: Arial;
+    font-size: 17px;
+    text-align: start;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: lowercase;
+}
+
+.body__row-date{
+    display: block;
+    width: 100px;
+}
+
+.btn{
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    background-color: #efefef;
+}
+
+.danger{
+    color: #ff6e6e;
+    cursor: pointer;
+}
+
+.danger:hover{
+    color: #f87c7c;
+}
+
+.danger:active{
+    color: #fd5555;
+}
+
+@media only screen and (max-width: 1520px) {
+    .wrapper{
+        transform: translateX(0%);
+        bottom: 110%;
+        z-index: 99;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .wrapper{
+        max-height: 250px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wrapper{
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper{
+        width: 258px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper{
+        width: 280px;
+    }
+}
